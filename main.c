@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "getCharacters.h"
 
 int main() {
-  printf("Ayuda!\n");
+  char *prueba = get_characters();
+  printf("%s\n", prueba);
   return 0;
 }
